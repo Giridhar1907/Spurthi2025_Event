@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/background1"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingHorizontal="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/spurthi_img"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/spurthilogo"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/scanButton"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:background="@drawable/baseline_qr_code_scanner_24"
+            android:textSize="15sp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="QR Code"
+            android:textColorHint="@color/white"
+            android:background="@drawable/white_border_curve"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:id="@+id/barcode"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basic Details"
+            android:textColor="@color/Android_green"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/detailsBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Participants Details"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/registered_events_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registered Events"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/Android_green"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:id="@+id/eventsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="10dp"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Done"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/curved_transparent_back"
+            android:padding="10dp"
+            android:id="@+id/doneButton"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.YourApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Change primary color -->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryVariant">#FFFFFF</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Change button color -->
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="android:colorButtonNormal">@color/ghost_white</item>
+
+        <!-- Remove action bar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="Theme.Spurthi25" parent="Base.Theme.Spurthi25" />
+</resources>
